@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/syle.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <input type="search" name="searchAnything" placeholder="Search" size="26" id="search">
+    <button type="submit" id="btnid" onclick="getSingleUserData()">search</button><br><br>
+    <br class="row">
+      <br class="column">
+        <table id="table">
+          <tr >
+            <th >ID</th>
+            <th >Name</th>
+            <th >Email</th>
+            <th colspan="2">Action</th>
+          </tr>
+        </table>
+        <br>
+        <button type="submit" id="btnid" onclick="getData()">Get Data</button></br></br>
+      </div>
+    </div>
+    <div class="dataForm">
+      <h2>Form Data</h2>
+      <input type="hidden" name="" id="stdId" value="">
+      <label>Name</label>
+      <input type="text" name="" id="name"><br><br>
+      <label>Email</label>
+      <input type="text" name="" id="emailAdd"><br><br>
+      <button type="submit" id="btnid" onclick="postData();">Insert</button>
+      
+    </div>
+   <script src="./JS/ajaxScript.js" type="text/javascript"></script>
+  </body>
+</html>

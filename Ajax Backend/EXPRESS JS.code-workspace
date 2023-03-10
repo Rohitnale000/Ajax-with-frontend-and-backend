@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../AJAX"
+		},
+		{
+			"path": "../../Front-End"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AJAX"
+	}
+}
